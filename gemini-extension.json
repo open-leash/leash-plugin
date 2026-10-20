@@ -1,0 +1,14 @@
+{
+  "name": "leash",
+  "version": "1.0.0",
+  "description": "Use your connected accounts through Leash with configurable protections, activity history and undo for supported actions.",
+  "mcpServers": {
+    "leash": {
+      "httpUrl": "https://secure.openleash.com/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

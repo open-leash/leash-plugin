@@ -1,0 +1,14 @@
+{
+  "name": "leash",
+  "owner": {
+    "name": "Leash",
+    "email": "max@openleash.com"
+  },
+  "plugins": [
+    {
+      "name": "leash",
+      "description": "Protected access to your Leash-connected accounts.",
+      "source": "./"
+    }
+  ]
+}

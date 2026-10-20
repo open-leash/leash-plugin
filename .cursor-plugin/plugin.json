@@ -1,0 +1,23 @@
+{
+  "name": "leash",
+  "version": "1.0.0",
+  "description": "Use your connected accounts through Leash with configurable protections, activity history and undo for supported actions.",
+  "author": {
+    "name": "Leash",
+    "email": "max@openleash.com",
+    "url": "https://openleash.com"
+  },
+  "homepage": "https://openleash.com",
+  "repository": "https://github.com/open-leash/leash-plugin",
+  "license": "LicenseRef-Proprietary",
+  "keywords": [
+    "security",
+    "privacy",
+    "personal-assistant",
+    "undo"
+  ],
+  "logo": "assets/icon.png",
+  "mcpServers": "./.mcp.json",
+  "rules": "./rules",
+  "skills": "./skills"
+}
