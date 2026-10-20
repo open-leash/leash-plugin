@@ -3,7 +3,7 @@
   "name": "io.github.open-leash/leash",
   "title": "Leash",
   "description": "Protected account access, configurable checks, activity history and undo for supported actions.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "url": "https://github.com/open-leash/leash-plugin",
     "source": "github"
