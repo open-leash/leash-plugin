@@ -1,0 +1,11 @@
+{
+  "id": "leash",
+  "name": "Leash",
+  "version": "1.0.0",
+  "description": "Protected access to your connected personal accounts through Leash.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

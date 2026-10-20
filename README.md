@@ -8,7 +8,7 @@ Leash connects your AI to your accounts through configurable protections. Review
 
 Install Leash from your AI's plugin directory when its listing is available, or install this package from GitHub in clients that support repository plugins. Enable the Leash connection and sign in at **openleash.com** when prompted. Each installation receives a separate, revocable connection. The shared endpoint is **https://secure.openleash.com/mcp**. Never append another person's token or put a personal link in a public package.
 
-For Gemini CLI: `gemini extensions install https://github.com/open-leash/leash-plugin`. Run `/mcp auth leash` if sign-in is requested. For other clients, use their remote HTTP server option with the shared endpoint and OAuth. A public directory submission is not the same as an approved listing. Check the release notes for current availability.
+For Gemini CLI: `gemini extensions install https://github.com/open-leash/leash-plugin`. Run `/mcp auth leash` if sign-in is requested. For OpenClaw, use `openclaw plugins install git:github.com/open-leash/leash-plugin@v1.0.0`, then inspect the enabled `leash` bundle. Its compatibility format is Cursor; no native code runs. For other clients, use their remote HTTP server option with the shared endpoint and OAuth. A public directory submission is not the same as an approved listing. Check the release notes for current availability.
 
 Run the Leash setup skill or ask: "Check Leash is connected without accessing my personal accounts." Success must come from the check_connection tool, not merely from listing available tools. Then connect the accounts you want at https://openleash.com/personal.
 
