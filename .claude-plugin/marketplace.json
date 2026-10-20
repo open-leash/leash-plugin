@@ -10,5 +10,6 @@
       "description": "Protected access to your Leash-connected accounts.",
       "source": "./"
     }
-  ]
+  ],
+  "description": "Leash integrations for protected access to personal accounts."
 }
