@@ -1,3 +1,7 @@
+# 1.0.2
+
+Move release-building automation out of the installable package into the private publisher repository. Public integration packages contain no executable scripts or hooks.
+
 # 1.0.1
 
 Explicit Claude privacy, terms, support and documentation links. OpenClaw-compatible bundle metadata and compact icon.
