@@ -15,5 +15,8 @@
     "privacy",
     "personal-assistant",
     "undo"
-  ]
+  ],
+  "displayName": "Leash",
+  "privacyPolicyUrl": "https://openleash.com/privacy",
+  "termsOfServiceUrl": "https://openleash.com/terms"
 }
