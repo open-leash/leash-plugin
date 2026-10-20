@@ -18,5 +18,7 @@
   ],
   "displayName": "Leash",
   "privacyPolicyUrl": "https://openleash.com/privacy",
-  "termsOfServiceUrl": "https://openleash.com/terms"
+  "termsOfServiceUrl": "https://openleash.com/terms",
+  "supportUrl": "https://openleash.com/contact",
+  "documentationUrl": "https://github.com/open-leash/leash-plugin#readme"
 }
