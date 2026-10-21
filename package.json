@@ -1,5 +1,5 @@
 {
-  "name": "@openleash/leash",
+  "name": "leash",
   "version": "1.0.3",
   "type": "module",
   "description": "Leash remote MCP integration bundle. Free.",
