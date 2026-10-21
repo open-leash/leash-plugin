@@ -1,3 +1,5 @@
 # Install Leash safely
 
 Use the host's remote HTTP MCP configuration with https://secure.openleash.com/mcp and OAuth discovery. Ask the user to complete the Leash sign-in and consent page. Do not copy credentials from another AI. Preserve all existing servers. Do not change global instructions without the user's request. Call check_connection with input {}, a setup reason and context; require connected true and isError false. Do not test email or files. If this host lacks OAuth support, direct the user to https://openleash.com/personal to create a unique private link for this AI and store it only in the host's private settings. Never commit it or save it in memory.
+
+After a successful check, reply only: "Successfully connected to your Leash." If setup needs attention, give one short next step instead. Do not echo raw tool results or credentials. Connection verification does not verify saved personal instructions. For ChatGPT web, the user adds the Leash rule in Settings → Personalization → Custom instructions; do not claim chat saved that setting. Follow the host-specific guide at https://openleash.com/personal.

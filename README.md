@@ -14,7 +14,7 @@ Run the Leash setup skill or ask: "Check Leash is connected without accessing my
 
 ## Instructions and privacy
 
-This package includes a setup skill and a personal-account skill. Cursor loads a packaged rule and Gemini CLI loads GEMINI.md while the extension is enabled. A plugin cannot guarantee that all AI activity uses Leash. For a permanent preference in other clients, add the credential-free rule from GEMINI.md to the client's supported personal instructions. Preserve your other instructions. Never add credentials to memory or shared files.
+This package includes a setup skill and a personal-account skill. Cursor loads a packaged rule and Gemini CLI loads GEMINI.md while the extension is enabled. A plugin cannot guarantee that all AI activity uses Leash. For a permanent preference in other clients, add the credential-free rule from GEMINI.md to the client's supported personal instructions. ChatGPT web uses Settings → Personalization → Custom instructions; Claude app uses Settings → General → Instructions for Claude; Cursor uses User Rules. A chat reply confirming the connection does not confirm that these settings were saved. Preserve your other instructions. Never add credentials to memory or shared files.
 
 This integration uses personal Leash connections. The personal-connection retention terms apply to it; workspace and desktop-client retention terms describe the separate business service. Protection checks may process relevant request and response content with TypeSafe JEV. Audit history is retained for 90 days. When undo is enabled, supported recovery details are encrypted and retained for up to 7 days. Turning undo off stops new recovery capture. Read https://openleash.com/privacy for the full policy.
 
