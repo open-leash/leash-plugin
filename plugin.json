@@ -23,7 +23,7 @@
       "interface": {
         "displayName": "Leash",
         "shortDescription": "A little peace of mind for your AI.",
-        "longDescription": "Connect your accounts to Leash, choose what your AI can do, and review activity in one place. Leash checks supported actions that pass through its gateway. Undo is available for supported reversible actions when enabled. It does not monitor other tools or browser activity. Free during the pilot.",
+        "longDescription": "Connect your accounts to Leash, choose what your AI can do, and review activity in one place. Leash checks supported actions that pass through its gateway. Undo is available for supported reversible actions when enabled. It does not monitor other tools or browser activity. Free.",
         "developerName": "Leash",
         "category": "Productivity",
         "capabilities": [

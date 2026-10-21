@@ -1,6 +1,6 @@
 # Leash
 
-A little peace of mind for your AI. Free during the pilot.
+A little peace of mind for your AI. Free.
 
 Leash connects your AI to your accounts through configurable protections. Review activity, control each AI's access, and undo supported reversible actions when undo is enabled. Only activity routed through Leash is covered.
 
