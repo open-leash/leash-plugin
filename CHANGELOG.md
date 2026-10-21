@@ -1,3 +1,7 @@
+# 1.0.3
+
+Add package metadata for ClawHub validation. Describe Leash as free. No executable scripts, hooks or dependencies are included.
+
 # 1.0.2
 
 Move release-building automation out of the installable package into the private publisher repository. Public integration packages contain no executable scripts or hooks.

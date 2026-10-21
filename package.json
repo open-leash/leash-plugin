@@ -1,0 +1,34 @@
+{
+  "name": "@openleash/leash",
+  "version": "1.0.3",
+  "type": "module",
+  "description": "Leash remote MCP integration bundle. Free.",
+  "license": "LicenseRef-Proprietary",
+  "homepage": "https://openleash.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/open-leash/leash-plugin.git"
+  },
+  "author": {
+    "name": "Leash",
+    "email": "max@openleash.com"
+  },
+  "files": [
+    "plugin.json",
+    "mcp.json",
+    ".mcp.json",
+    ".cursor-plugin",
+    ".claude-plugin",
+    ".grok-plugin",
+    "skills",
+    "rules",
+    "assets",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "llms-install.md",
+    "GEMINI.md",
+    "gemini-extension.json",
+    "openclaw.plugin.json"
+  ]
+}
