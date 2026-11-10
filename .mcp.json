@@ -2,7 +2,7 @@
   "mcpServers": {
     "leash": {
       "type": "http",
-      "url": "https://secure.openleash.com/mcp"
+      "url": "https://secure.lea.sh/mcp"
     }
   }
 }

@@ -1,31 +1,29 @@
-# Leash
+# Leash for Claude
 
-A little peace of mind for your AI. Free.
+Leash gives your AI protected access to the accounts you connect. Review sensitive actions, block requests, see activity, and undo supported changes.
 
-Leash connects your AI to your accounts through configurable protections. Review activity, control each AI's access, and undo supported reversible actions when undo is enabled. Only activity routed through Leash is covered.
+## Connect
 
-## Install
+Install the Leash plugin, enable its remote connection and sign in to your Leash at https://lea.sh. Each person receives their own revocable OAuth connection. No token, API key or local program is bundled. The hosted remote MCP endpoint is https://secure.lea.sh/mcp.
 
-Install Leash from your AI's plugin directory when its listing is available, or install this package from GitHub in clients that support repository plugins. Enable the Leash connection and sign in at **openleash.com** when prompted. Each installation receives a separate, revocable connection. Some hosts share one connection across multiple bots; Leash cannot distinguish bots that use the same credentials. Use separate connections where your host supports them. The shared endpoint is **https://secure.openleash.com/mcp**. Never append another person's token or put a personal link in a public package.
+Run the setup skill or ask Claude to check its Leash connection without reading email or files. A successful tool result confirms the connection. Then choose the accounts and protections you want at https://lea.sh/personal.
 
-For Gemini CLI: `gemini extensions install https://github.com/open-leash/leash-plugin`. Run `/mcp auth leash` if sign-in is requested. For OpenClaw, use `openclaw plugins install git:github.com/open-leash/leash-plugin@v1.0.3`, then inspect the enabled `leash` bundle. Its compatibility format is Cursor; no native code runs. For other clients, use their remote HTTP server option with the shared endpoint and OAuth. A public directory submission is not the same as an approved listing. Check the release notes for current availability.
+The package includes two Markdown skills and a remote MCP configuration. It has no scripts, hooks, package manager configuration, local executable or local MCP server. Leash is an independent service, not an official app from a connected data provider. Only activity routed through Leash receives its protections.
 
-Run the Leash setup skill or ask: "Check Leash is connected without accessing my personal accounts." Success must come from the check_connection tool, not merely from listing available tools. Then connect the accounts you want at https://openleash.com/personal.
+## Remember your preference
 
-## Instructions and privacy
+If you want a standing preference, add the following alongside your existing instructions in Claude's supported personal instruction settings:
 
-This package includes a setup skill and a personal-account skill. Cursor loads a packaged rule and Gemini CLI loads GEMINI.md while the extension is enabled. A plugin cannot guarantee that all AI activity uses Leash. For a permanent preference in other clients, add the credential-free rule from GEMINI.md to the client's supported personal instructions. ChatGPT web uses Settings → Personalization → Custom instructions; Claude app uses Settings → General → Instructions for Claude; Cursor uses User Rules. A chat reply confirming the connection does not confirm that these settings were saved. Preserve your other instructions. Never add credentials to memory or shared files.
+> For my Leash-connected accounts, use Leash tools. If Leash is unavailable or access is blocked, stop and ask me rather than using another route. Report success only after a tool confirms it.
 
-This integration uses personal Leash connections. The personal-connection retention terms apply to it; workspace and desktop-client retention terms describe the separate business service. Protection checks may process relevant request and response content with TypeSafe JEV. Audit history is retained for 90 days. When undo is enabled, supported recovery details are encrypted and retained for up to 7 days. Turning undo off stops new recovery capture. Read https://openleash.com/privacy for the full policy.
+A chat connection check does not prove that a preference was saved. Keep credentials and private connection URLs out of instructions.
 
-## Remove
+## Privacy
 
-Disable or uninstall the plugin in your AI, remove any Leash-specific saved preference you added, then remove its connection in Your AIs at https://openleash.com/personal. Removing that connection revokes access immediately without disconnecting other AIs.
+Users choose which accounts to connect and may revoke access at any time. This integration uses personal Leash connections. Protection checks may process relevant request and response content with TypeSafe JEV. Audit history is retained for 90 days. When undo is enabled, supported recovery details are encrypted and retained for up to 7 days. Turning undo off stops new recovery capture. Read https://lea.sh/privacy for the full policy.
 
-## Support
+## Remove and support
 
-https://openleash.com/contact · max@openleash.com
+Disable the plugin in Claude and remove its connection in Your AIs at https://lea.sh/personal. Other AI connections remain separate. Support: https://lea.sh/support or max@openleash.com. Terms: https://lea.sh/terms.
 
-Privacy: https://openleash.com/privacy · Terms: https://openleash.com/terms
-
-This repository contains only public integration metadata, instructions and brand assets. Leash's gateway and protection engine remain private.
+The public package contains integration metadata, Markdown instructions and Leash brand assets. The hosted service and protection engine remain private. The package license grants distribution of this integration without granting backend or brand rights.

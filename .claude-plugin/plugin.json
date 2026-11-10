@@ -1,13 +1,13 @@
 {
   "name": "leash",
-  "version": "1.0.3",
+  "version": "1.0.9",
   "description": "Use your connected accounts through Leash with configurable protections, activity history and undo for supported actions.",
   "author": {
     "name": "Leash",
     "email": "max@openleash.com",
-    "url": "https://openleash.com"
+    "url": "https://lea.sh"
   },
-  "homepage": "https://openleash.com",
+  "homepage": "https://lea.sh",
   "repository": "https://github.com/open-leash/leash-plugin",
   "license": "LicenseRef-Proprietary",
   "keywords": [
@@ -17,8 +17,8 @@
     "undo"
   ],
   "displayName": "Leash",
-  "privacyPolicyUrl": "https://openleash.com/privacy",
-  "termsOfServiceUrl": "https://openleash.com/terms",
-  "supportUrl": "https://openleash.com/contact",
-  "documentationUrl": "https://github.com/open-leash/leash-plugin#readme"
+  "privacyPolicyUrl": "https://lea.sh/privacy",
+  "termsOfServiceUrl": "https://lea.sh/terms",
+  "supportUrl": "https://lea.sh/support",
+  "documentationUrl": "https://github.com/open-leash/leash-plugin/tree/claude-directory"
 }
